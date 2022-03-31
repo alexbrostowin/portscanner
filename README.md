@@ -2,7 +2,7 @@
 This tool will show you the open ports on a given IP address or domain name. The application uses the sfml-network library in order to test the ports. Please use responsibly as scanning ports can be seen as malicious behavior. "scanme.nmap.org" is a website that will freely allow you to scan their ports several times a day and should be used for testing this application on non-local networks. Otherwise, test it on localhost.
 
 ## Installation
-In order to compile the source code into an executable, you must have the SFML libraries installed. On Linux, check your distribution's repository. For Windows and Mac, visit [the SFML website] (https://www.sfml-dev.org/index.php). The following directions will be for compiling on Linux using g++.
+In order to compile the source code into an executable, you must have the SFML libraries installed. On Linux, check your distribution's repository. For Windows and Mac, visit [the SFML website](https://www.sfml-dev.org/index.php). The following directions will be for compiling on Linux using g++.
 First, you will need to compile the source code:
 ```
 g++ -c portscanner.cpp
