@@ -1,7 +1,7 @@
 # C++ Portscanner
 This tool will show you the open ports on a given IP address or domain name. The application uses the sfml-network library in order to test the ports. Please use responsibly as scanning ports can be seen as malicious behavior. "scanme.nmap.org" is a website that will freely allow you to scan their ports several times a day and should be used for testing this application on non-local networks. Otherwise, test it on localhost.
 
-##Installation
+## Installation
 In order to compile the source code into an executable, you must have the SFML libraries installed. On Linux, check your distribution's repository. For Windows and Mac, visit [the SFML website] (https://www.sfml-dev.org/index.php). The following directions will be for compiling on Linux using g++.
 First, you will need to compile the source code:
 ```
@@ -25,14 +25,14 @@ If you cannot run the file, make sure that it has the execute flag set. Add it w
 chmod +x portscanner
 ```
 
-###Modes
+### Modes
 The tool can be used in either command-line mode or interactive mode. In order to enter command line mode you need to run it with the IP/domain name and the port range as command-line arguments. For example:
 ```
 ./portscanner localhost 1-1000
 ```
 If you don't enter any arguments, you will enter interactive mode in which the application will ask you for these values as it runs.
 
-###Port Ranges
+### Port Ranges
 Port ranges can be entered by using the , and - characters.
 
 , denotes two specific ports or ranges (think of AND).
